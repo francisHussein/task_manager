@@ -30,10 +30,12 @@ Follow these instructions to set up and run the project locally.
     cp .env.example .env
 
 4. Generate the application key:
+
      ```bash
      php artisan key:generate
 
 5. Configure the .env file:
+
      ```bash
     APP_NAME=LaravelTaskManager
     APP_ENV=local
@@ -49,10 +51,12 @@ Follow these instructions to set up and run the project locally.
     DB_PASSWORD=[your-database-password]
 
 6. Create the task_manager database in MySQL.
+
      ```bash
      php artisan migrate --seed
 
 7. Start the development server:
+
      ```bash
      php artisan serve
 
