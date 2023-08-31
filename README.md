@@ -18,3 +18,14 @@ Follow these instructions to set up and run the project locally.
 
    ```bash
    cd laravel-task-manager
+
+2. Install project dependencies using Composer:
+
+    ```bash
+    composer install
+
+ 3. Copy the .env.example file and rename it to .env:
+   
+   ```bash
+    cp .env.example .env
+ 4. 
