@@ -24,7 +24,7 @@ Follow these instructions to set up and run the project locally.
     ```bash
     composer install
 
- 3. Copy the .env.example file and rename it to .env:
+3. Copy the .env.example file and rename it to .env:
    
    ```bash
     cp .env.example .env
