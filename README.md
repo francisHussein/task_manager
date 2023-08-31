@@ -37,18 +37,18 @@ Follow these instructions to set up and run the project locally.
 5. Configure the .env file:
 
      ```bash
-    APP_NAME=LaravelTaskManager
-    APP_ENV=local
-    APP_KEY=[your-generated-app-key]
-    APP_DEBUG=true
-    APP_URL=http://localhost
+        APP_NAME=LaravelTaskManager
+        APP_ENV=local
+        APP_KEY=[your-generated-app-key]
+        APP_DEBUG=true
+        APP_URL=http://localhost
 
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=task_manager
-    DB_USERNAME=[your-database-username]
-    DB_PASSWORD=[your-database-password]
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=task_manager
+        DB_USERNAME=[your-database-username]
+        DB_PASSWORD=[your-database-password]
 
 6. Create the task_manager database in MySQL.
 
